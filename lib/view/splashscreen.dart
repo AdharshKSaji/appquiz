@@ -1,4 +1,5 @@
 
+import 'package:appquiz/core/constants/colorconstants.dart';
 import 'package:appquiz/view/firstscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -27,9 +28,9 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.white,
+    return Scaffold(backgroundColor: ColorConstants.normalBlack,
       body: Center(
-        child: Image.network("https://fiverr-res.cloudinary.com/images/t_smartwm/t_main1,q_auto,f_auto,q_auto,f_auto/v1/attachments/delivery/asset/84c302a7ebc659775b144d6c51579a36-1625128329/Splash%20screen/design-a-professional-splash-screen-for-your-app.png",
+        child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkwvbcbMT5sUdaVgoOFcoeLKDc8DbfRWSuA67cZ3TczInrWUW3hZWe0TPQZ9MYfM6z0TE&usqp=CAU",
         fit: BoxFit.fill,),
       ),
     );
